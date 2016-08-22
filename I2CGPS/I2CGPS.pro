@@ -1,4 +1,4 @@
-update=21/08/2016 21:49:27
+update=22/08/2016 21:25:31
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../Adem rev1/libraries/ADEM;../Adem rev1/libraries/ArduProMini
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,5 +58,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=C:/Users/koen/Documents/Timelab/Adem/ADEM-hardware/Adem rev1/libraries/ADEM/Adem
+LibName31=C:/Users/koen/Documents/Timelab/Adem/ADEM-hardware/Adem rev1/libraries/ArduProMini/ArduProMiniTKB

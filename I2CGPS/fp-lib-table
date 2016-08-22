@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ADEM)(type KiCad)(uri "C:\\Users\\koen\\Documents\\Timelab\\Adem\\ADEM-hardware\\Adem rev1\\libraries\\ADEM")(options "")(descr ""))
+  (lib (name ArduProMiniTKB)(type Legacy)(uri "C:\\Users\\koen\\Documents\\Timelab\\Adem\\ADEM-hardware\\Adem rev1\\libraries\\ArduProMini\\ArduProMiniTKB.mod")(options "")(descr ""))
+)
