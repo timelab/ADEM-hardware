@@ -1,0 +1,17 @@
+** Drc report for C:/Users/koen/Documents/Timelab/Adem/ADEM-hardware/I2CGPS/I2CGPS.kicad_pcb **
+** Created on  **
+
+** Found 1 DRC errors **
+ErrType(8): Two track ends too close
+    @ (184.785mm,114.808mm): Track 0.250mm, net [Net-(P2-Pad1)] (15) on layer F.Cu, length: 1.266mm
+    @ (186.051mm,114.808mm): Track 0.250mm, net [Net-(Q1-Pad2)] (25) on layer F.Cu, length: 3.560mm
+
+** Found 2 unconnected pads **
+ErrType(2): Niet verbonden pads
+    @ (192.405mm,81.661mm): Pad 1 on F.Cu, B.Cu, Internal, Niet-koper of P1 net VCC
+    @ (198.120mm,93.440mm): Pad 1 on B.Cu, Niet-koper of C2
+ErrType(2): Niet verbonden pads
+    @ (186.944mm,119.253mm): Pad 3 on F.Cu, B.Cu, Internal, Niet-koper of Q1 net GND
+    @ (194.120mm,108.966mm): Pad 2 on B.Cu, Niet-koper of C1
+
+** End of Report **

@@ -1,0 +1,14 @@
+** Drc report for C:/Users/koen/Documents/Timelab/Adem/ADEM-hardware/I2CGPS/I2CGPS.kicad_pcb **
+** Created on  **
+
+** Found 0 DRC errors **
+
+** Found 2 unconnected pads **
+ErrType(2): Niet verbonden pads
+    @ (198.120mm,89.440mm): Pad 2 on B.Cu, Niet-koper of C2 net GND
+    @ (189.611mm,94.488mm): Pad 10 on F.Cu, B.Cu, Internal, Niet-koper of uP1
+ErrType(2): Niet verbonden pads
+    @ (189.484mm,119.253mm): Pad 2 on F.Cu, B.Cu, Internal, Niet-koper of Q1 net Net-(Q1-Pad2)
+    @ (189.611mm,114.808mm): Pad 18 on F.Cu, B.Cu, Internal, Niet-koper of uP1
+
+** End of Report **
