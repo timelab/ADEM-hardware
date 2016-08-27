@@ -1,0 +1,29 @@
+** Drc report for C:\Users\koen\Documents\Timelab\Adem\ADEM-hardware\Adem rev2\ADEM.kicad_pcb **
+** Created on  **
+
+** Found 3 DRC errors **
+ErrType(4): Spoor dichtbij pad
+    @ (187.833mm,109.220mm): Track 0.250mm, net [] (0) on layer F.Cu, length: 1.255mm
+    @ (187.013mm,109.855mm): Pad 3 on F.Cu, B.Cu, Internal, Niet-koper of U4
+ErrType(16): Two track ends too close
+    @ (165.035mm,133.190mm): Track 0.500mm, net [VCC] (1) on layer F.Cu, length: 1.065mm
+    @ (165.035mm,134.325mm): Track 0.500mm, net [GND] (2) on layer F.Cu, length: 1.135mm
+ErrType(7): Via dichtbij spoor
+    @ (193.347mm,111.141mm): Track 0.250mm, net [Net-(P3-Pad2)] (7) on layer F.Cu, length: 5.315mm
+    @ (193.972mm,115.824mm): Via 0.600mm net [GND] (2) on layers F.Cu/B.Cu
+
+** Found 4 unconnected pads **
+ErrType(2): Niet verbonden pads
+    @ (167.386mm,137.668mm): Pad 1 on F.Cu, Niet-koper of A_NV2 net VCC
+    @ (167.505mm,134.325mm): Pad 1 on F.Cu, Niet-koper of A_NV1
+ErrType(2): Niet verbonden pads
+    @ (167.386mm,141.224mm): Pad 1 on F.Cu, Niet-koper of A_NV3 net VCC
+    @ (167.386mm,137.668mm): Pad 1 on F.Cu, Niet-koper of A_NV2
+ErrType(2): Niet verbonden pads
+    @ (172.130mm,134.225mm): Pad 8 on F.Cu, Niet-koper of U5 net VCC
+    @ (167.505mm,134.325mm): Pad 1 on F.Cu, Niet-koper of A_NV1
+ErrType(2): Niet verbonden pads
+    @ (164.846mm,141.224mm): Pad 3 on F.Cu, Niet-koper of A_NV3 net GND
+    @ (175.940mm,139.625mm): Pad 4 on F.Cu, Niet-koper of U5
+
+** End of Report **

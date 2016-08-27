@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BSS84
+D 50V Vds, 0.53A Id, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET Logic Level
+F http://www.farnell.com/datasheets/1783461.pdf
+$ENDCMP
+#
 $CMP ESP8266_THING
 D ESP8266 12E THING from sparkfun
 F https://www.sparkfun.com/products/13231
