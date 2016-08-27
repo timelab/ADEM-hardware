@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name ADEM)(type KiCad)(uri "$(KIPRJMOD)\\libraries\\ADEM")(options "")(descr ""))
+  (lib (name Adem_Kicad_logos)(type KiCad)(uri C:\Users\koen\Documents\Timelab\Adem\ADEM-Logos\Adem_Kicad_logos)(options "")(descr ""))
 )

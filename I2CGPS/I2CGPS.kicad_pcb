@@ -3,9 +3,9 @@
   (general
     (links 36)
     (no_connects 0)
-    (area 0 0 0 0)
+    (area 179.751667 71.674999 223.879562 134.400001)
     (thickness 1.6)
-    (drawings 6)
+    (drawings 10)
     (tracks 92)
     (zones 0)
     (modules 9)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 1)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory ../))
   )
 
   (net 0 "")
@@ -548,6 +548,10 @@
     )
   )
 
+  (gr_line (start 183 127) (end 183 78) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 212 127) (end 183 127) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 212 78) (end 212 127) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 183 78) (end 212 78) (layer Edge.Cuts) (width 0.15))
   (dimension 49 (width 0.3) (layer Eco2.User)
     (gr_text 49.000mm (at 217.95099 102.5 90) (layer Eco2.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
