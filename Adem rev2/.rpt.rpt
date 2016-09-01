@@ -3,6 +3,9 @@
 
 ** Found 0 DRC errors **
 
-** Found 0 unconnected pads **
+** Found 1 unconnected pads **
+ErrType(2): Niet verbonden pads
+    @ (203.233mm,119.380mm): Pad 5 on F.Cu, B.Cu, Internal, Niet-koper of P_I2CGPS1 net GND
+    @ (195.453mm,120.650mm): Pad 2 on F.Cu, B.Cu, Internal, Niet-koper of C7
 
 ** End of Report **
