@@ -78,10 +78,10 @@ F 3 "" H 5800 3800 60  0000 C CNN
 	1    5750 3850
 	1    0    0    -1  
 $EndComp
-Text GLabel 1450 3700 0    60   Input ~ 0
-TX
+Text GLabel 1650 3700 0    60   Input ~ 0
+TX_HW
 Text GLabel 1250 3800 0    60   Input ~ 0
-RX
+RX_HW
 Text GLabel 1450 4100 0    60   Input ~ 0
 SDA
 Text GLabel 1200 4200 0    60   Input ~ 0
@@ -230,8 +230,6 @@ Wire Wire Line
 Wire Wire Line
 	4950 3900 5250 3900
 Wire Wire Line
-	1450 3700 2200 3700
-Wire Wire Line
 	1250 3800 2200 3800
 Wire Wire Line
 	1450 4100 2200 4100
@@ -243,8 +241,6 @@ Wire Wire Line
 	3400 3800 3800 3800
 Wire Wire Line
 	3400 4000 4150 4000
-Wire Wire Line
-	750  4000 2200 4000
 Wire Wire Line
 	750  4000 750  4050
 Wire Wire Line
@@ -258,8 +254,6 @@ Wire Wire Line
 	2200 7250 2200 7300
 Wire Wire Line
 	2000 7300 2500 7300
-Wire Wire Line
-	2500 7300 2500 7250
 Connection ~ 2200 7300
 $Comp
 L CONN_01X09 P3
@@ -288,9 +282,9 @@ Connection ~ 1850 4100
 Connection ~ 1850 4200
 Connection ~ 1850 4300
 Wire Wire Line
-	1850 4400 2200 4400
+	1200 4400 2200 4400
 Wire Wire Line
-	1850 4500 2200 4500
+	850  4500 2200 4500
 Wire Wire Line
 	2200 4600 1850 4600
 Wire Wire Line
@@ -368,4 +362,83 @@ Wire Wire Line
 Connection ~ 4150 4800
 Wire Wire Line
 	3500 3700 3400 3700
+Wire Wire Line
+	2500 7300 2500 7250
+$Comp
+L NC #U011
+U 1 1 5818CC7D
+P 2100 3900
+F 0 "#U011" H 1800 3950 60  0001 C CNN
+F 1 "NC" H 2100 3900 60  0000 C CNN
+F 2 "" H 2100 3900 60  0000 C CNN
+F 3 "" H 2100 3900 60  0000 C CNN
+	1    2100 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3900 2150 3900
+Wire Wire Line
+	750  4000 2200 4000
+$Comp
+L GS3 GS2
+U 1 1 5818E038
+P 2350 6200
+F 0 "GS2" H 2400 6400 50  0000 C CNN
+F 1 "GS3" H 2400 6001 50  0000 C CNN
+F 2 "Connect:GS3" V 2438 6126 50  0000 C CNN
+F 3 "" H 2350 6200 50  0000 C CNN
+	1    2350 6200
+	1    0    0    -1  
+$EndComp
+Text GLabel 2800 6200 2    60   Input ~ 0
+RX
+Text GLabel 1600 6100 0    60   Input ~ 0
+RX_SW
+Text GLabel 1600 6300 0    60   Input ~ 0
+RX_HW
+Wire Wire Line
+	2200 6200 2800 6200
+Wire Wire Line
+	1600 6100 2200 6100
+Wire Wire Line
+	2200 6300 1600 6300
+$Comp
+L GS3 GS1
+U 1 1 5818E30A
+P 2350 5600
+F 0 "GS1" H 2400 5800 50  0000 C CNN
+F 1 "GS3" H 2400 5401 50  0000 C CNN
+F 2 "Connect:GS3" V 2438 5526 50  0000 C CNN
+F 3 "" H 2350 5600 50  0000 C CNN
+	1    2350 5600
+	1    0    0    -1  
+$EndComp
+Text GLabel 2800 5600 2    60   Input ~ 0
+TX
+Text GLabel 1600 5500 0    60   Input ~ 0
+TX_SW
+Text GLabel 1600 5700 0    60   Input ~ 0
+TX_HW
+Wire Wire Line
+	1600 5500 2200 5500
+Wire Wire Line
+	2200 5700 1600 5700
+Wire Wire Line
+	2200 5600 2800 5600
+Wire Wire Line
+	2200 3700 1650 3700
+Text GLabel 1200 4400 0    60   Input ~ 0
+RX_SW
+Text GLabel 850  4500 0    60   Input ~ 0
+TX_SW
+Connection ~ 1850 4400
+Connection ~ 1850 4500
+Wire Wire Line
+	2200 5500 2200 5600
+Connection ~ 2500 5600
+Wire Wire Line
+	2200 6100 2200 6200
+Connection ~ 2500 6200
+Connection ~ 2200 6100
+Connection ~ 2200 5500
 $EndSCHEMATC
