@@ -1,38 +1,11 @@
 ** Drc report for C:/Users/koen/Documents/Timelab/Adem/ADEM-hardware/Adem rev2/ADEM.kicad_pcb **
 ** Created on  **
 
-** Found 1 DRC errors **
-ErrType(16): Two track ends too close
-    @ (200.902mm,122.203mm): Track 0.250mm, net [BUZZ] (9) on layer B.Cu, length: 34.227mm
-    @ (200.902mm,119.018mm): Track 0.250mm, net [INT] (13) on layer B.Cu, length: 3.185mm
+** Found 0 DRC errors **
 
-** Found 9 unconnected pads **
+** Found 1 unconnected pads **
 ErrType(2): Niet verbonden pads
     @ (203.233mm,119.380mm): Pad 5 on F.Cu, B.Cu, Internal, Niet-koper of P_I2CGPS1 net GND
     @ (195.453mm,120.650mm): Pad 2 on F.Cu, B.Cu, Internal, Niet-koper of C7
-ErrType(2): Niet verbonden pads
-    @ (209.550mm,125.730mm): Pad 1 on F.Cu, Niet-koper of S2 net SDA
-    @ (215.900mm,134.620mm): Pad 1 on F.Cu, Niet-koper of GS2
-ErrType(2): Niet verbonden pads
-    @ (215.900mm,135.890mm): Pad 2 on F.Cu, Niet-koper of GS2 net Net-(GS2-Pad2)
-    @ (208.280mm,125.730mm): Pad 2 on F.Cu, Niet-koper of S2
-ErrType(2): Niet verbonden pads
-    @ (172.593mm,149.860mm): Pad 17 on F.Cu, B.Cu, Internal, Niet-koper of U3 net NEO_PXL
-    @ (208.233mm,132.080mm): Pad 2 on F.Cu, B.Cu, Internal, Niet-koper of P2
-ErrType(2): Niet verbonden pads
-    @ (190.183mm,139.700mm): Pad 1 on F.Cu, Niet-koper of R1 net BUZZ
-    @ (170.053mm,149.860mm): Pad 16 on F.Cu, B.Cu, Internal, Niet-koper of U3
-ErrType(2): Niet verbonden pads
-    @ (205.613mm,147.320mm): Pad 1 on F.Cu, B.Cu, Internal, Niet-koper of P_SENS1 net A_SENSOR
-    @ (159.893mm,149.860mm): Pad 12 on F.Cu, B.Cu, Internal, Niet-koper of U3
-ErrType(2): Niet verbonden pads
-    @ (167.513mm,149.860mm): Pad 15 on F.Cu, B.Cu, Internal, Niet-koper of U3 net P10_SENS
-    @ (203.073mm,147.320mm): Pad 2 on F.Cu, B.Cu, Internal, Niet-koper of P_SENS1
-ErrType(2): Niet verbonden pads
-    @ (197.993mm,147.320mm): Pad 4 on F.Cu, B.Cu, Internal, Niet-koper of P_SENS1 net P25_SENS
-    @ (164.973mm,149.860mm): Pad 14 on F.Cu, B.Cu, Internal, Niet-koper of U3
-ErrType(2): Niet verbonden pads
-    @ (175.133mm,149.860mm): Pad 18 on F.Cu, B.Cu, Internal, Niet-koper of U3 net INT
-    @ (203.233mm,116.840mm): Pad 4 on F.Cu, B.Cu, Internal, Niet-koper of P_I2CGPS1
 
 ** End of Report **

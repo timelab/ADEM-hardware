@@ -1,0 +1,188 @@
+** Drc report for C:/Users/koen/Documents/Timelab/Adem/ADEM-hardware/PCBpanel.kicad_pcb **
+** Created on  **
+
+** Found 7 DRC errors **
+ErrType(4): Spoor dichtbij pad
+    @ (105.899mm,92.226mm): Track 0.250mm, net [] (0) on layer F.Cu, length: 0.350mm
+    @ (105.013mm,92.860mm): Pad 15 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(4): Spoor dichtbij pad
+    @ (103.359mm,92.226mm): Track 0.250mm, net [] (0) on layer F.Cu, length: 0.350mm
+    @ (102.473mm,92.860mm): Pad 14 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(16): Two track ends too close
+    @ (103.259mm,143.226mm): Track 0.250mm, net [] (0) on layer F.Cu, length: 0.350mm
+    @ (103.728mm,143.860mm): Track 0.250mm, net [P25_SENS_SHFT] (74) on layer F.Cu, length: 2.820mm
+ErrType(4): Spoor dichtbij pad
+    @ (109.093mm,69.650mm): Track 0.250mm, net [SCL] (3) on layer F.Cu, length: 2.896mm
+    @ (107.553mm,70.000mm): Pad 5 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(4): Spoor dichtbij pad
+    @ (103.828mm,92.860mm): Track 0.250mm, net [P25_SENS_SHFT] (74) on layer F.Cu, length: 2.820mm
+    @ (102.473mm,92.860mm): Pad 14 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(4): Spoor dichtbij pad
+    @ (103.728mm,143.860mm): Track 0.250mm, net [P25_SENS_SHFT] (74) on layer F.Cu, length: 2.820mm
+    @ (101.973mm,143.860mm): Pad 14 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(4): Spoor dichtbij pad
+    @ (101.473mm,92.510mm): Track 0.250mm, net [P10_SENS_SHFT] (75) on layer F.Cu, length: 2.334mm
+    @ (99.933mm,92.860mm): Pad 13 on F.Cu, B.Cu, Internal, Niet-koper of U3
+
+** Found 53 unconnected pads **
+ErrType(2): Niet verbonden pads
+    @ (115.233mm,57.020mm): Pad 1 on F.Cu, Niet-koper of C5 net VCC
+    @ (115.173mm,70.000mm): Pad 2 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(2): Niet verbonden pads
+    @ (116.335mm,78.525mm): Pad 1 on F.Cu, Niet-koper of C4 net VCC
+    @ (115.173mm,70.000mm): Pad 2 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(2): Niet verbonden pads
+    @ (71.882mm,58.674mm): Pad 19 on F.Cu, B.Cu, Internal, Niet-koper of uP1 net VCC
+    @ (83.820mm,61.300mm): Pad 1 on F.Cu, Niet-koper of C2
+ErrType(2): Niet verbonden pads
+    @ (66.132mm,90.656mm): Pad 3 on B.Cu, Niet-koper of Q1 net VCC
+    @ (65.468mm,82.423mm): Pad 1 on B.Cu, Niet-koper of C1
+ErrType(2): Niet verbonden pads
+    @ (141.478mm,92.606mm): Pad 1 on B.Cu, Niet-koper of VCC_SEL1 net VCC
+    @ (139.633mm,103.220mm): Pad 1 on F.Cu, B.Cu, Internal, Niet-koper of P_I2CGPS1
+ErrType(2): Niet verbonden pads
+    @ (131.953mm,63.650mm): Pad 2 on F.Cu, B.Cu, Internal, Niet-koper of C7 net GND
+    @ (139.733mm,62.380mm): Pad 5 on F.Cu, B.Cu, Internal, Niet-koper of P_I2CGPS1
+ErrType(2): Niet verbonden pads
+    @ (120.873mm,103.855mm): Pad 2 on F.Cu, B.Cu, Internal, Niet-koper of U4 net GND
+    @ (117.713mm,92.860mm): Pad 20 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(2): Niet verbonden pads
+    @ (111.170mm,77.225mm): Pad 6 on F.Cu, Niet-koper of U5 net SCL
+    @ (111.660mm,114.650mm): Pad 4 on F.Cu, B.Cu, Internal, Niet-koper of U7
+ErrType(2): Niet verbonden pads
+    @ (111.760mm,63.650mm): Pad 4 on F.Cu, B.Cu, Internal, Niet-koper of U7 net SCL
+    @ (110.093mm,70.000mm): Pad 4 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(2): Niet verbonden pads
+    @ (64.516mm,54.356mm): Pad 3 on F.Cu, B.Cu, Internal, Niet-koper of P1 net SCL
+    @ (92.710mm,63.650mm): Pad 3 on F.Cu, B.Cu, Internal, Niet-koper of U6
+ErrType(2): Niet verbonden pads
+    @ (61.976mm,54.356mm): Pad 2 on F.Cu, B.Cu, Internal, Niet-koper of P1 net SDA
+    @ (95.250mm,63.650mm): Pad 4 on F.Cu, B.Cu, Internal, Niet-koper of U6
+ErrType(2): Niet verbonden pads
+    @ (112.440mm,77.225mm): Pad 5 on F.Cu, Niet-koper of U5 net SDA
+    @ (112.633mm,70.000mm): Pad 3 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(2): Niet verbonden pads
+    @ (125.953mm,103.855mm): Pad 4 on F.Cu, B.Cu, Internal, Niet-koper of U4 net SDA
+    @ (112.440mm,77.225mm): Pad 5 on F.Cu, Niet-koper of U5
+ErrType(2): Niet verbonden pads
+    @ (144.633mm,126.080mm): Pad 2 on F.Cu, B.Cu, Internal, Niet-koper of P2 net NEO_PXL
+    @ (144.733mm,75.080mm): Pad 2 on F.Cu, B.Cu, Internal, Niet-koper of P2
+ErrType(2): Niet verbonden pads
+    @ (144.733mm,75.080mm): Pad 2 on F.Cu, B.Cu, Internal, Niet-koper of P2 net NEO_PXL
+    @ (110.093mm,92.860mm): Pad 17 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(2): Niet verbonden pads
+    @ (124.333mm,64.920mm): Pad 2 on F.Cu, B.Cu, Internal, Niet-koper of P3 net Net-(P3-Pad2)
+    @ (76.962mm,68.834mm): Pad 2 on F.Cu, B.Cu, Internal, Niet-koper of P3
+ErrType(2): Niet verbonden pads
+    @ (131.033mm,103.855mm): Pad 6 on F.Cu, B.Cu, Internal, Niet-koper of U4 net Net-(P3-Pad2)
+    @ (124.333mm,64.920mm): Pad 2 on F.Cu, B.Cu, Internal, Niet-koper of P3
+ErrType(2): Niet verbonden pads
+    @ (130.746mm,81.938mm): Pad 2 on F.Cu, Niet-koper of R1 net Net-(Q1-Pad2)
+    @ (68.131mm,91.606mm): Pad 2 on B.Cu, Niet-koper of Q1
+ErrType(2): Niet verbonden pads
+    @ (130.646mm,132.938mm): Pad 2 on F.Cu, Niet-koper of R1 net Net-(Q1-Pad2)
+    @ (130.746mm,81.938mm): Pad 2 on F.Cu, Niet-koper of R1
+ErrType(2): Niet verbonden pads
+    @ (126.646mm,132.938mm): Pad 1 on F.Cu, Niet-koper of R1 net BUZZ
+    @ (126.746mm,81.938mm): Pad 1 on F.Cu, Niet-koper of R1
+ErrType(2): Niet verbonden pads
+    @ (126.746mm,81.938mm): Pad 1 on F.Cu, Niet-koper of R1 net BUZZ
+    @ (107.553mm,92.860mm): Pad 16 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(2): Niet verbonden pads
+    @ (97.393mm,92.860mm): Pad 12 on F.Cu, B.Cu, Internal, Niet-koper of U3 net A_SENSOR
+    @ (142.080mm,89.000mm): Pad 1 on F.Cu, B.Cu, Internal, Niet-koper of P_SENS1
+ErrType(2): Niet verbonden pads
+    @ (141.980mm,140.000mm): Pad 1 on F.Cu, B.Cu, Internal, Niet-koper of P_SENS1 net A_SENSOR
+    @ (142.080mm,89.000mm): Pad 1 on F.Cu, B.Cu, Internal, Niet-koper of P_SENS1
+ErrType(2): Niet verbonden pads
+    @ (134.620mm,95.781mm): Pad 1 on F.Cu, Niet-koper of D2 net P10_SENS
+    @ (139.440mm,140.000mm): Pad 2 on F.Cu, B.Cu, Internal, Niet-koper of P_SENS1
+ErrType(2): Niet verbonden pads
+    @ (134.620mm,93.368mm): Pad 1 on F.Cu, Niet-koper of D3 net P25_SENS
+    @ (134.360mm,140.000mm): Pad 4 on F.Cu, B.Cu, Internal, Niet-koper of P_SENS1
+ErrType(2): Niet verbonden pads
+    @ (112.633mm,92.860mm): Pad 18 on F.Cu, B.Cu, Internal, Niet-koper of U3 net INT
+    @ (126.898mm,93.165mm): Pad 2 on F.Cu, Niet-koper of R4
+ErrType(2): Niet verbonden pads
+    @ (67.056mm,54.356mm): Pad 4 on F.Cu, B.Cu, Internal, Niet-koper of P1 net INT
+    @ (136.213mm,52.855mm): Pad 8 on F.Cu, B.Cu, Internal, Niet-koper of U4
+ErrType(2): Niet verbonden pads
+    @ (126.898mm,93.165mm): Pad 2 on F.Cu, Niet-koper of R4 net INT
+    @ (136.113mm,103.855mm): Pad 8 on F.Cu, B.Cu, Internal, Niet-koper of U4
+ErrType(2): Niet verbonden pads
+    @ (139.733mm,59.840mm): Pad 4 on F.Cu, B.Cu, Internal, Niet-koper of P_I2CGPS1 net INT
+    @ (126.898mm,93.165mm): Pad 2 on F.Cu, Niet-koper of R4
+ErrType(2): Niet verbonden pads
+    @ (76.962mm,71.374mm): Pad 3 on F.Cu, B.Cu, Internal, Niet-koper of P3 net Net-(P3-Pad3)
+    @ (121.793mm,64.920mm): Pad 3 on F.Cu, B.Cu, Internal, Niet-koper of P3
+ErrType(2): Niet verbonden pads
+    @ (128.493mm,103.855mm): Pad 5 on F.Cu, B.Cu, Internal, Niet-koper of U4 net Net-(P3-Pad3)
+    @ (121.793mm,64.920mm): Pad 3 on F.Cu, B.Cu, Internal, Niet-koper of P3
+ErrType(2): Niet verbonden pads
+    @ (134.073mm,128.620mm): Pad 2 on F.Cu, Niet-koper of D1 net Net-(D1-Pad2)
+    @ (139.548mm,83.970mm): Pad 1 on F.Cu, B.Cu, Internal, Niet-koper of Q1
+ErrType(2): Niet verbonden pads
+    @ (107.553mm,70.000mm): Pad 5 on F.Cu, B.Cu, Internal, Niet-koper of U3 net Net-(U3-Pad5)
+    @ (107.053mm,121.000mm): Pad 5 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(2): Niet verbonden pads
+    @ (105.013mm,70.000mm): Pad 6 on F.Cu, B.Cu, Internal, Niet-koper of U3 net Net-(U3-Pad6)
+    @ (104.513mm,121.000mm): Pad 6 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(2): Niet verbonden pads
+    @ (101.973mm,121.000mm): Pad 7 on F.Cu, B.Cu, Internal, Niet-koper of U3 net Net-(U3-Pad7)
+    @ (102.473mm,70.000mm): Pad 7 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(2): Niet verbonden pads
+    @ (99.433mm,121.000mm): Pad 8 on F.Cu, B.Cu, Internal, Niet-koper of U3 net Net-(U3-Pad8)
+    @ (99.933mm,70.000mm): Pad 8 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(2): Niet verbonden pads
+    @ (97.393mm,70.000mm): Pad 9 on F.Cu, B.Cu, Internal, Niet-koper of U3 net Net-(U3-Pad9)
+    @ (96.893mm,121.000mm): Pad 9 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(2): Niet verbonden pads
+    @ (99.933mm,92.860mm): Pad 13 on F.Cu, B.Cu, Internal, Niet-koper of U3 net Net-(U3-Pad13)
+    @ (99.433mm,143.860mm): Pad 13 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(2): Niet verbonden pads
+    @ (109.800mm,128.225mm): Pad 7 on F.Cu, Niet-koper of U5 net Net-(U5-Pad7)
+    @ (109.900mm,77.225mm): Pad 7 on F.Cu, Niet-koper of U5
+ErrType(2): Niet verbonden pads
+    @ (133.573mm,103.855mm): Pad 7 on F.Cu, B.Cu, Internal, Niet-koper of U4 net Net-(A_MPU1-Pad2)
+    @ (133.604mm,58.824mm): Pad 2 on F.Cu, Niet-koper of A_MPU1
+ErrType(2): Niet verbonden pads
+    @ (108.530mm,133.625mm): Pad 1 on F.Cu, Niet-koper of U5 net Net-(A_NV1-Pad2)
+    @ (108.630mm,82.625mm): Pad 1 on F.Cu, Niet-koper of U5
+ErrType(2): Niet verbonden pads
+    @ (109.800mm,133.625mm): Pad 2 on F.Cu, Niet-koper of U5 net Net-(A_NV2-Pad2)
+    @ (109.900mm,82.625mm): Pad 2 on F.Cu, Niet-koper of U5
+ErrType(2): Niet verbonden pads
+    @ (102.616mm,84.224mm): Pad 2 on F.Cu, Niet-koper of A_NV3 net Net-(A_NV3-Pad2)
+    @ (102.516mm,135.224mm): Pad 2 on F.Cu, Niet-koper of A_NV3
+ErrType(2): Niet verbonden pads
+    @ (142.203mm,117.190mm): Pad 2 on F.Cu, Niet-koper of R2 net Net-(R2-Pad2)
+    @ (142.303mm,66.190mm): Pad 2 on F.Cu, Niet-koper of R2
+ErrType(2): Niet verbonden pads
+    @ (115.173mm,92.860mm): Pad 19 on F.Cu, B.Cu, Internal, Niet-koper of U3 net Net-(U3-Pad19)
+    @ (114.673mm,143.860mm): Pad 19 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(2): Niet verbonden pads
+    @ (94.353mm,143.860mm): Pad 11 on F.Cu, B.Cu, Internal, Niet-koper of U3 net Net-(U3-Pad11)
+    @ (94.853mm,92.860mm): Pad 11 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(2): Niet verbonden pads
+    @ (145.315mm,145.000mm): Pad 2 on F.Cu, B.Cu, Internal, Niet-koper of 5V1 net Net-(5V1-Pad2)
+    @ (145.415mm,94.000mm): Pad 2 on F.Cu, B.Cu, Internal, Niet-koper of 5V1
+ErrType(2): Niet verbonden pads
+    @ (144.780mm,68.730mm): Pad 2 on F.Cu, Niet-koper of S2 net Net-(R3-Pad1)
+    @ (144.680mm,119.730mm): Pad 2 on F.Cu, Niet-koper of S2
+ErrType(2): Niet verbonden pads
+    @ (99.786mm,138.272mm): Pad 1 on F.Cu, Niet-koper of R6 net P25_SENS_SHFT
+    @ (105.013mm,92.860mm): Pad 15 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(2): Niet verbonden pads
+    @ (99.886mm,87.272mm): Pad 1 on F.Cu, Niet-koper of R6 net P25_SENS_SHFT
+    @ (105.013mm,92.860mm): Pad 15 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(2): Niet verbonden pads
+    @ (102.473mm,92.860mm): Pad 14 on F.Cu, B.Cu, Internal, Niet-koper of U3 net P10_SENS_SHFT
+    @ (99.722mm,140.939mm): Pad 1 on F.Cu, Niet-koper of R5
+ErrType(2): Niet verbonden pads
+    @ (99.823mm,89.939mm): Pad 1 on F.Cu, Niet-koper of R5 net P10_SENS_SHFT
+    @ (102.473mm,92.860mm): Pad 14 on F.Cu, B.Cu, Internal, Niet-koper of U3
+ErrType(2): Niet verbonden pads
+    @ (141.478mm,93.876mm): Pad 2 on B.Cu, Niet-koper of VCC_SEL1 net Net-(P_SENS1-Pad3)
+    @ (136.900mm,140.000mm): Pad 3 on F.Cu, B.Cu, Internal, Niet-koper of P_SENS1
+
+** End of Report **
