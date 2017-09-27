@@ -1,0 +1,45 @@
+Title,
+Revision,
+Date,3 nov 2015
+Generated,Wed 27 Sep 2017 11:17:18 PM CEST
+Company,
+Comment 1,
+Comment 2,
+Comment 3,
+Comment 4,
+Total Parts,35
+Total Unique Parts,24
+
+
+
+Ref,Qty,Value,Footprint,Datasheet,
+A_NVNaN ,1,GS_A1,Connect:GS3,
+A_NVNaN ,1,GS_A2,Connect:GS3,
+A_NVNaN A_NVNaN ,2,GS_A0,Connect:GS3,
+C1 C2 C3 C4 C5 C6 ,6,0.1µF,Capacitors_SMD:C_1206_HandSoldering,
+C7 ,1,10µF,Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5,
+D1 ,1,DIODE,Diodes_SMD:SMB_Handsoldering,
+D2 D3 ,2,1V8,Diodes_SMD:D_SOD-123,
+P1 ,1,CONN_buzz,Connect:PINHEAD1-2,
+P2 ,1,CONN_01X03,Connect:PINHEAD1-3,
+P3 ,1,CONN_01X04,Pin_Headers:Pin_Header_Straight_1x04,
+P_ICGPSNaN ,1,CONN_01X05,Pin_Headers:Pin_Header_Angled_1x05,
+P_SENSNaN ,1,CONN_01X05,Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm,
+Q1 ,1,BC547,TO_SOT_Packages_THT:TO-92_Inline_Wide,
+R1 R4 R5 R6 ,4,10K,Resistors_SMD:R_1206_HandSoldering,
+R2 R3 ,2,2K5,Resistors_SMD:R_1206_HandSoldering,
+S1 ,1,S1,Connect:GS2,
+S2 ,1,S2,Connect:GS2,
+U3 ,1,ESP8266_THING,ADEM:ESP8266_THING,https://www.sparkfun.com/products/13231
+U4 ,1,MPU6050,ADEM:MPU6050_angled,
+U5 ,1,AT24C512C,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,
+U6 ,1,BMP180,ADEM:BMP180,
+U7 ,1,HTU21D,ADEM:HTU21D,
+V51 ,1,5V,Connect:PINHEAD1-2,
+VCC_SELNaN ,1,GS_VCC,Connect:GS3,
+
+
+
+
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
+Generated Wed 27 Sep 2017 11:17:18 PM CEST
